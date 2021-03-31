@@ -1,0 +1,9 @@
+server:
+  port: 3000
+
+db:
+  type: 'sqlite'
+  database: 'taskmanager.db'
+
+jwt:
+  expiresIn: 3600

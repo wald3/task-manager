@@ -1,0 +1,10 @@
+db:
+  # # for a postgres
+  # host: 'localhost'
+  # port: 5432
+  # username: 'username'
+  # password: 'password'
+  synchronize: true
+
+jwt:
+  sercret: 'YouAreNotSupposedToReadThis'

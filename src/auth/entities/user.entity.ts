@@ -13,6 +13,9 @@ export class User extends BaseEntity {
     @Column()
     password: string;
 
+    @Column({ type: 'datetime' })
+    registration_date: number = Date.now();
+
     @OneToMany(() => Task, task => task.user, { eager: true })
     tasks: Task[];
 }
